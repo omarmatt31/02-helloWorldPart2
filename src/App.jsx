@@ -1,8 +1,11 @@
+import Informacion from "./components/Informacion"
+
 function App() {
+  const mensaje = "my friend"
 
   return (
     <>
-     <h1>Hello World</h1>
+     <Informacion mensaje={mensaje}></Informacion>
     </>
   )
 }
